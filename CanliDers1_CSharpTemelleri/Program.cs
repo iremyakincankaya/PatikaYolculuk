@@ -1,7 +1,17 @@
-﻿namespace CanliDers1_CSharpTemelleri
+﻿using System.Runtime.CompilerServices;
+using System.Threading.Channels;
+
+namespace CanliDers1_CSharpTemelleri
 {
     public class Program
     {
+        static void ifkuırallari()
+        {
+            Console.Write();
+
+
+        }
+
         static void Main(string[] args)
         {
 
@@ -20,3 +30,5 @@
         }
     }
 }
+
+
