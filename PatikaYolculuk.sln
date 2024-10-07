@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1_Pratik_Degiskenler", "Pratik_Degiskenler\Week1_Pratik_Degiskenler.csproj", "{AED63352-C161-430A-8189-535BA6BCFACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week1_Pratik_Degiskenler", "Pratik_Degiskenler\Week1_Pratik_Degiskenler.csproj", "{AED63352-C161-430A-8189-535BA6BCFACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1_Pratik_If_Else", "Pratik_If_Else\Week1_Pratik_If_Else.csproj", "{83F2E717-2E82-4EC7-9F56-322E845D900C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{AED63352-C161-430A-8189-535BA6BCFACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AED63352-C161-430A-8189-535BA6BCFACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AED63352-C161-430A-8189-535BA6BCFACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F2E717-2E82-4EC7-9F56-322E845D900C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F2E717-2E82-4EC7-9F56-322E845D900C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F2E717-2E82-4EC7-9F56-322E845D900C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F2E717-2E82-4EC7-9F56-322E845D900C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
