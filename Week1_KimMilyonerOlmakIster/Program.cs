@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Kim Milyoner Olmak İster?");
+﻿//Yarısmanın baslangıcı
+Console.WriteLine("Kim Milyoner Olmak İster?");
 Console.WriteLine("3 sorudan en az 2'sine doğru cevap vererek milyoner olabilirsiniz!");
 Console.WriteLine("Yarışma Başlıyor!");
 Console.WriteLine("İşte Sorular!");
@@ -8,11 +9,12 @@ Console.WriteLine("A) Lama     B) Deve");
 Console.WriteLine("");
 Console.Write("1. Soru için cevabınız(A/B) :");
 
-int sayac = 0;
 // sayac ile dogru yanıt sayısı kontrol edilir. Eger soruyu dogru yanıtlar ise sayac 1 arttırılır.
+int sayac = 0;
 
 string hayvan = Console.ReadLine().ToLower();
 
+//1.soru kontrolü
 if (hayvan == "a")
 {
     Console.WriteLine("Doğru bildiniz. Bir sonraki soruya geçelim.");
@@ -31,6 +33,7 @@ Console.Write("2. Soru için cevabınız(A/B) :");
 
 string gezegen = Console.ReadLine().ToLower();
 
+//2.soru kontrolü
 if (gezegen == "b")
 {
     sayac++;
@@ -56,6 +59,7 @@ else
     }
 }
 
+//3. soru kontrolü
 if (sayac > 1)
 {
     Console.WriteLine("Kazandınız!");
