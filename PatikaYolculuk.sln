@@ -16,6 +16,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week1_Pratik_If_Else", "Pra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1_First_Practice", "Week1_First_Practice\Week1_First_Practice.csproj", "{7790EF93-81AF-4732-AAC0-D37AC7186A50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practise_IfElse&SwitchCase", "Practise_IfElse&SwitchCase\Practise_IfElse&SwitchCase.csproj", "{568C2247-B74C-4AFF-AD7C-96BF05952B0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{7790EF93-81AF-4732-AAC0-D37AC7186A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7790EF93-81AF-4732-AAC0-D37AC7186A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7790EF93-81AF-4732-AAC0-D37AC7186A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{568C2247-B74C-4AFF-AD7C-96BF05952B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{568C2247-B74C-4AFF-AD7C-96BF05952B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{568C2247-B74C-4AFF-AD7C-96BF05952B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{568C2247-B74C-4AFF-AD7C-96BF05952B0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
