@@ -7,7 +7,7 @@ namespace CanliDers1_CSharpTemelleri
     {
         static void ifkuırallari()
         {
-            Console.Write();
+            Console.Write("");
 
 
         }
