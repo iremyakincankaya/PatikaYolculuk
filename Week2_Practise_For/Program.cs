@@ -37,17 +37,39 @@ Console.WriteLine(" ");
 int toplamTekSayilar = 0;
 int toplamCiftSayilar = 0;
 
-for (int i = 1; i <= 120; i += 2)
+for (int i = 1; i < 120; i += 2)
 {
     toplamTekSayilar += i;
 }
 Console.WriteLine($"1 ile 120 arasındaki tek sayıların toplamı: {toplamTekSayilar} ");
 Console.WriteLine(" ");
 
-for (int i = 2; i <= 120; i += 2)
+for (int i = 2; i < 120; i += 2)
 {
     toplamCiftSayilar += i;
 }
 Console.WriteLine($"1 ile 120 arasındaki çift sayıların toplamı: {toplamCiftSayilar} ");
 Console.WriteLine(" ");
+
+//Alternatif: 1 ile 120 arasındaki tek ve çift sayıların toplamlarını ayrı ayrı ekrana yazdırınız.
+
+int sumCift = 0;
+int sumTek = 0;
+
+for (int i = 0; i < 120; i++)
+{
+    if (i % 2 == 0)
+    {
+        sumCift += i; //çift sayıların toplamı
+    }
+
+    else
+    {
+        sumTek += i; // tek sayıların yoplamı
+    }
+}
+
+Console.WriteLine($"çift değerler toplamı {sumCift}");
+Console.WriteLine($"tek değerler toplamı {sumTek}");
+
 Console.ReadKey();
