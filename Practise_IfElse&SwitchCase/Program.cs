@@ -5,7 +5,7 @@ public class Meyveler
 {
     static void MeyveSec()
     {
-        Console.WriteLine("Welcome to Ruya Greengrocer");
+        Console.WriteLine("Welcome to Ruya Green");
         Console.WriteLine("Apple = 2 TL");
         Console.WriteLine("Pear = 3 TL");
         Console.WriteLine("Strawberry = 5 TL");
