@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1_Practise_IfElse&Switc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week1_KimMilyonerOlmakIster", "Week1_KimMilyonerOlmakIster\Week1_KimMilyonerOlmakIster.csproj", "{2F650C1F-530C-4E0C-9E5A-B17483B6A75A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2_Practise_For", "Week2_Practise_For\Week2_Practise_For.csproj", "{7F376A73-8B03-498E-A688-7139A4A134F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{2F650C1F-530C-4E0C-9E5A-B17483B6A75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F650C1F-530C-4E0C-9E5A-B17483B6A75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F650C1F-530C-4E0C-9E5A-B17483B6A75A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F376A73-8B03-498E-A688-7139A4A134F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F376A73-8B03-498E-A688-7139A4A134F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F376A73-8B03-498E-A688-7139A4A134F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F376A73-8B03-498E-A688-7139A4A134F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
