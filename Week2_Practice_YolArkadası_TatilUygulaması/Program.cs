@@ -38,6 +38,13 @@ kisisayisi:
 string kisiSayisi;
 Console.WriteLine("Kaç kişilik tatil planı yapmak istiyorsunuz?");
 kisiSayisi = Console.ReadLine();
+int.TryParse(kisiSayisi, out int sayiNegatif);
+
+if (sayiNegatif < 0)
+{
+    Console.WriteLine($"Kişi sayısı - olamaz.Tekrar giriş yapınız.");
+    goto kisisayisi;
+}
 
 if (int.TryParse(kisiSayisi, out int sayi))
 {
@@ -97,4 +104,4 @@ switch (cevap)
         Console.WriteLine("Başka tatil planlarında görüşmek üzere.");
         break;
 }
- Console.ReadKey();
+Console.ReadKey();
