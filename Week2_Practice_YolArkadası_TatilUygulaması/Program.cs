@@ -7,6 +7,7 @@ Console.WriteLine("   Marmaris paket başlangıç fiyatı 3000 TL");
 Console.WriteLine("   Çeşme paket başlangıç fiyatı 5000 TL");
 
 baslangic:
+//lokasyon seçimi ile başlıyoruz
 #region lokasyon secimi
 string lokasyon = Console.ReadLine().ToLower();
 int paketFiyat;
@@ -31,6 +32,7 @@ switch (lokasyon)
 }
 #endregion
 
+//kullanıcıdan kişi sayısı alma adımı
 #region kisisayisibelirleme
 kisisayisi:
 string kisiSayisi;
@@ -48,6 +50,7 @@ else
 }
 #endregion
 
+//ulasım yöntemi belirleme adımı
 #region ulasim
 ulasim:
 Console.WriteLine("Tatilinizi hangi ulaşım yöntemi ile yapmak istersiniz? (Karayolu için 1 - Havayolu için 2 yazabilirsiniz)");
@@ -72,10 +75,9 @@ switch (ulasimYontemi)
         goto ulasim;
         break;
 }
-
-
 #endregion
 
+//tatil ücreti belirleme adımı
 #region fiyat
 int totalPrice = sayi * paketFiyat + sayi * ulasimFiyat;
 Console.WriteLine($" Tatil planınızı neredeyse tamamladık. {lokasyon} için {sayi} kişilik tatil planınız hazır.");
