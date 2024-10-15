@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Week4_Practise_Patika_Kutuphane
 {
     //class
-    internal class PatikaKutuphane
+    public class PatikaKutuphane
     {
         //property
         public string _kitapAd;
