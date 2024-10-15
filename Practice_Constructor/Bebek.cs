@@ -27,7 +27,7 @@ namespace Practice_Constructor
         public Bebek() 
         {
             Console.WriteLine("Ingaaaa");
-            _dogumTarihi = DateTime.Now;
+            _dogumTarihi = DateTime.Now.;
         }
 
         public Bebek( string ad, string soyad) 
