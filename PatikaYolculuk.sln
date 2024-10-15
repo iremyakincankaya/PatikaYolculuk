@@ -70,6 +70,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_Constructor", "Pra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4_Practise_Patika_Kutuphane", "Week4_Practise_Patika_Kutuphane\Week4_Practise_Patika_Kutuphane.csproj", "{B4BE0F40-7639-478E-9ED7-00417200A8FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4_Practice_Encapsulation", "Week4_Practice_Encapsulation\Week4_Practice_Encapsulation.csproj", "{406617B7-6B31-42F6-8E55-1F999FEC7874}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -184,6 +186,10 @@ Global
 		{B4BE0F40-7639-478E-9ED7-00417200A8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4BE0F40-7639-478E-9ED7-00417200A8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4BE0F40-7639-478E-9ED7-00417200A8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406617B7-6B31-42F6-8E55-1F999FEC7874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406617B7-6B31-42F6-8E55-1F999FEC7874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406617B7-6B31-42F6-8E55-1F999FEC7874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406617B7-6B31-42F6-8E55-1F999FEC7874}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -209,6 +215,7 @@ Global
 		{460DD416-94B1-4396-8F82-55EB449CD87B} = {A9CE4D9A-DD7A-41A7-AE3D-CE977F36D758}
 		{0E78130F-0672-47DD-B006-896873ED8B91} = {A9CE4D9A-DD7A-41A7-AE3D-CE977F36D758}
 		{B4BE0F40-7639-478E-9ED7-00417200A8FB} = {A9CE4D9A-DD7A-41A7-AE3D-CE977F36D758}
+		{406617B7-6B31-42F6-8E55-1F999FEC7874} = {A9CE4D9A-DD7A-41A7-AE3D-CE977F36D758}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A80743B2-8389-4954-9CF2-3FBA435C1284}
