@@ -10,12 +10,12 @@ namespace Week4_Practise_Patika_Kutuphane
     public class PatikaKutuphane
     {
         //property
-        public string _kitapAd;
-        public string _yazarAd;
-        public string _yazarSoyad;
-        public string _yayinevi;
-        public int _sayfaSayisi;
-        public DateTime _kayitTarihi;
+        public string _kitapAd { get; set; }
+        public string _yazarAd { get; set; }
+        public string _yazarSoyad { get; set; }
+        public string _yayinevi { get; set; }
+        public int _sayfaSayisi { get; set; }
+        public DateTime _kayitTarihi { get; set; }
 
         //default constructor
         public PatikaKutuphane()
