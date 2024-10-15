@@ -134,7 +134,17 @@ Console.WriteLine();
 
 //14 - Kullanıcıdan alınan sayının tek mi yoksa çift mi olduğu bilgisini (true/false) dönen bir metot.
 
-bool TekMiCiftMi(int sayi)
+bool CiftMi(int sayi2)
+{
+    return sayi2 % 2 == 0;
+}
+
+Console.Write("Bir sayı: ");
+int sayi2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine(CiftMi(sayi) ? "Çift" : "Tek");
+
+Console.ReadKey();
 
 
 //15 - Kullanıcıdan alınan hız ve zaman bilgileriyle , gidilen yolu hesaplayan bir metot yazınız.
