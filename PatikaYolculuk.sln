@@ -66,13 +66,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP_Encapsulation", "OOP_En
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP_Encapsulation", "OOP_Encapsulation\OOP_Encapsulation.csproj", "{460DD416-94B1-4396-8F82-55EB449CD87B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_Constructor", "Practice_Constructor\Practice_Constructor.csproj", "{0E78130F-0672-47DD-B006-896873ED8B91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Practice_Constructor", "Practice_Constructor\Practice_Constructor.csproj", "{0E78130F-0672-47DD-B006-896873ED8B91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4_Practise_Patika_Kutuphane", "Week4_Practise_Patika_Kutuphane\Week4_Practise_Patika_Kutuphane.csproj", "{B4BE0F40-7639-478E-9ED7-00417200A8FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4_Practise_Patika_Kutuphane", "Week4_Practise_Patika_Kutuphane\Week4_Practise_Patika_Kutuphane.csproj", "{B4BE0F40-7639-478E-9ED7-00417200A8FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4_Practice_Encapsulation", "Week4_Practice_Encapsulation\Week4_Practice_Encapsulation.csproj", "{406617B7-6B31-42F6-8E55-1F999FEC7874}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4_Practice_Encapsulation", "Week4_Practice_Encapsulation\Week4_Practice_Encapsulation.csproj", "{406617B7-6B31-42F6-8E55-1F999FEC7874}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4_Inheritance", "Week4_Inheritance\Week4_Inheritance.csproj", "{2CA87652-13A9-428A-8031-4599222BFC23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4_Inheritance", "Week4_Inheritance\Week4_Inheritance.csproj", "{2CA87652-13A9-428A-8031-4599222BFC23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4_Polymorphism", "Week4_Polymorphism\Week4_Polymorphism.csproj", "{BA246DAA-4982-425D-AE1E-86C377C75DAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -196,6 +198,10 @@ Global
 		{2CA87652-13A9-428A-8031-4599222BFC23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CA87652-13A9-428A-8031-4599222BFC23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CA87652-13A9-428A-8031-4599222BFC23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA246DAA-4982-425D-AE1E-86C377C75DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA246DAA-4982-425D-AE1E-86C377C75DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA246DAA-4982-425D-AE1E-86C377C75DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA246DAA-4982-425D-AE1E-86C377C75DAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -223,6 +229,7 @@ Global
 		{B4BE0F40-7639-478E-9ED7-00417200A8FB} = {A9CE4D9A-DD7A-41A7-AE3D-CE977F36D758}
 		{406617B7-6B31-42F6-8E55-1F999FEC7874} = {A9CE4D9A-DD7A-41A7-AE3D-CE977F36D758}
 		{2CA87652-13A9-428A-8031-4599222BFC23} = {3DD7598F-1964-4A33-9920-B88B9C10445E}
+		{BA246DAA-4982-425D-AE1E-86C377C75DAF} = {A9CE4D9A-DD7A-41A7-AE3D-CE977F36D758}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A80743B2-8389-4954-9CF2-3FBA435C1284}
