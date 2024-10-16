@@ -76,6 +76,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4_Inheritance", "Week4_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4_Polymorphism", "Week4_Polymorphism\Week4_Polymorphism.csproj", "{BA246DAA-4982-425D-AE1E-86C377C75DAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4_Abstraction1", "Week4_Abstraction1\Week4_Abstraction1.csproj", "{A7F97B5D-9398-4127-97B7-FF01A8FF975D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -202,6 +204,10 @@ Global
 		{BA246DAA-4982-425D-AE1E-86C377C75DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA246DAA-4982-425D-AE1E-86C377C75DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA246DAA-4982-425D-AE1E-86C377C75DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7F97B5D-9398-4127-97B7-FF01A8FF975D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7F97B5D-9398-4127-97B7-FF01A8FF975D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7F97B5D-9398-4127-97B7-FF01A8FF975D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7F97B5D-9398-4127-97B7-FF01A8FF975D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -230,6 +236,7 @@ Global
 		{406617B7-6B31-42F6-8E55-1F999FEC7874} = {A9CE4D9A-DD7A-41A7-AE3D-CE977F36D758}
 		{2CA87652-13A9-428A-8031-4599222BFC23} = {3DD7598F-1964-4A33-9920-B88B9C10445E}
 		{BA246DAA-4982-425D-AE1E-86C377C75DAF} = {A9CE4D9A-DD7A-41A7-AE3D-CE977F36D758}
+		{A7F97B5D-9398-4127-97B7-FF01A8FF975D} = {3DD7598F-1964-4A33-9920-B88B9C10445E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A80743B2-8389-4954-9CF2-3FBA435C1284}
