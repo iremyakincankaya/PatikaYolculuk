@@ -24,7 +24,7 @@ namespace Week4_Abstraction1
             : base(name, surname, "Project Management") // Departmanı sabit olarak belirliyoruz
         {
         }
-
+    
         public override void Job()
         {
             Console.WriteLine($"{Name} {Surname}, I work as a Project Manager.");
