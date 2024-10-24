@@ -28,5 +28,6 @@ foreach (var item in siraliDizi)
     Console.Write(item + ">");
 }
 
+
 Console.ReadKey();
 
