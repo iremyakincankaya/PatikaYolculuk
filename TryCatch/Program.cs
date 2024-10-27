@@ -15,8 +15,9 @@ while (true)
             return;
         }
     }
-    catch
+    catch(Exception ex)
     {
+        Console.WriteLine(ex.Message);
         Console.WriteLine("Geçerli bir sayı giriniz");
     }
 
