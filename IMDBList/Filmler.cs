@@ -18,6 +18,11 @@ namespace IMDBList
             IMDB = imdb;
         }
 
+        public override string ToString()
+        {
+            return $"Filmin adı: {Ad} IMDB: {IMDB}";
+        }
+
     }
 
     

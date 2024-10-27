@@ -31,7 +31,7 @@ while (true)
 
         foreach (Filmler film in list.Where(x => x.IMDB > 4 && x.IMDB < 9))
         {
-            Console.WriteLine($"Filmin adı: {film.Ad} IMDB Puanı: {film.IMDB}");
+            Console.WriteLine(film);
 
         }
         Console.WriteLine("---------------------------");
@@ -39,7 +39,7 @@ while (true)
 
         foreach (Filmler film in list.Where(x => x.Ad.StartsWith('a') == true || x.Ad.StartsWith('A') == true))
         {
-            Console.WriteLine($"Filmin adı: {film.Ad} IMDB Puanı: {film.IMDB}");
+            Console.WriteLine(film);
 
         }
 
