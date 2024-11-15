@@ -37,7 +37,7 @@ while (true)
         Console.WriteLine("---------------------------");
         Console.WriteLine("Film adı A ile başlayanlar:");
 
-        foreach (Filmler film in list.Where(x => x.Ad.StartsWith('a') == true || x.Ad.StartsWith('A') == true))
+        foreach (Filmler film in list.Where(x => x.Ad.ToLower().StartsWith('a') == true))
         {
             Console.WriteLine(film);
 

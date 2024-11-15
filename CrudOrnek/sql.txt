@@ -1,0 +1,20 @@
+﻿CREATE TABLE ogrenciler
+(
+	id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+	ad VARCHAR(100) NOT NULL,
+	cinsiyet CHAR(1) NOT NULL,
+	dogum_yili INT
+);
+
+INSERT INTO ogrenciler(ad, cinsiyet, dogum_yili) VALUES('Eda Karabacak', 'k', 2004);
+INSERT INTO ogrenciler(ad, cinsiyet, dogum_yili) VALUES('Ali Yılmaz', 'e', 2000);
+INSERT INTO ogrenciler(ad, cinsiyet, dogum_yili) VALUES('Ece Bacak', 'k', 2000);
+INSERT INTO ogrenciler(ad, cinsiyet, dogum_yili) VALUES('Cem Karaca', 'e', 1998);
+INSERT INTO ogrenciler(ad, cinsiyet, dogum_yili) VALUES('Cemile Karaca', 'k', 1981);
+INSERT INTO ogrenciler(ad, cinsiyet, dogum_yili) VALUES('İrem Kaya', 'k', 1995);
+INSERT INTO ogrenciler(ad, cinsiyet, dogum_yili) VALUES('Alaattin Kaya', 'e', 1996);
+INSERT INTO ogrenciler(ad, cinsiyet, dogum_yili) VALUES('Rahmazan Lümen', 'e', 1947);
+INSERT INTO ogrenciler(ad, cinsiyet, dogum_yili) VALUES('Osman Oğlan', 'e', 1996);
+INSERT INTO ogrenciler(ad, cinsiyet, dogum_yili) VALUES('Melisa Kara', 'k', 2003);
+
+
