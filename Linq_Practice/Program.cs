@@ -1,5 +1,6 @@
 ﻿using Linq_Practice;
 
+// yazar listesi oluşturma
 List<Authors> authors = new List<Authors>()
 { 
     new Authors( 1,"Orhan Pamuk"),
@@ -7,6 +8,7 @@ List<Authors> authors = new List<Authors>()
     new Authors( 3,"Ahmet Ümit")
 };
 
+//kitap listesi olusturma
 List<Books> books = new List<Books>()
 {
     new Books(1,"Kar",1),
@@ -15,17 +17,7 @@ List<Books> books = new List<Books>()
     new Books(4,"Kar",3)
 };
 
-//var studentGrades = students.Join(grades,
-//    student => student.Id,
-//    grade => grade.StudentId,
-//    (student, grade) => new
-//    {
-//        StutentName = student.Name,
-//        CourseName = grade.Course,
-//        Score = grade.Score
-//    }
-//    );
-
+//join ie yazar ve kitap listelerini bağlama
 var booksWithAuthors = books.Join(authors,
     authors => authors.AuthorId,
     books => books.AuthorId,
@@ -35,6 +27,7 @@ var booksWithAuthors = books.Join(authors,
         AuthorName = authors.AuthorName,
     }
     );
+//oluşan yeni listeyi ekrana yazdırma
 foreach (var book in booksWithAuthors)
 {
     Console.WriteLine($"Kitap Adı: {book.NewBook} ----- Yazar Adı: {book.AuthorName}");
