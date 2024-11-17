@@ -34,5 +34,6 @@ foreach (var item in result)
         Console.WriteLine($"  Student: {student.StudentName}");
     }
 }
+
 Console.ReadKey();
 
