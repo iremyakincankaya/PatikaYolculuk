@@ -150,6 +150,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Advanced", "Linq_Advan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Practice", "Linq_Practice\Linq_Practice.csproj", "{26C04363-7DDF-4A92-95EC-D4F50FC966F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_GroupJoin_Practice", "Linq_GroupJoin_Practice\Linq_GroupJoin_Practice.csproj", "{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -396,6 +398,10 @@ Global
 		{26C04363-7DDF-4A92-95EC-D4F50FC966F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26C04363-7DDF-4A92-95EC-D4F50FC966F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26C04363-7DDF-4A92-95EC-D4F50FC966F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -455,6 +461,7 @@ Global
 		{9B8ABF48-2709-44C7-8118-33BA704E355B} = {C3693943-F5DE-452D-9D48-130EE4B98B60}
 		{A81D5099-35BC-4492-9EF5-69A3C4A92496} = {C3693943-F5DE-452D-9D48-130EE4B98B60}
 		{26C04363-7DDF-4A92-95EC-D4F50FC966F9} = {C3693943-F5DE-452D-9D48-130EE4B98B60}
+		{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A} = {C3693943-F5DE-452D-9D48-130EE4B98B60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A80743B2-8389-4954-9CF2-3FBA435C1284}
