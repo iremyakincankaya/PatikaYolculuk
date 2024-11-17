@@ -144,6 +144,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patikafy", "Patikafy\Patikafy.csproj", "{BD70EB3C-CCA5-4876-B023-9DBEDD5A678E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patikaflix", "Patikaflix\Patikaflix.csproj", "{9B8ABF48-2709-44C7-8118-33BA704E355B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -378,6 +380,10 @@ Global
 		{BD70EB3C-CCA5-4876-B023-9DBEDD5A678E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD70EB3C-CCA5-4876-B023-9DBEDD5A678E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD70EB3C-CCA5-4876-B023-9DBEDD5A678E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8ABF48-2709-44C7-8118-33BA704E355B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8ABF48-2709-44C7-8118-33BA704E355B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8ABF48-2709-44C7-8118-33BA704E355B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8ABF48-2709-44C7-8118-33BA704E355B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -434,6 +440,7 @@ Global
 		{E95310A1-492E-4FE5-B51B-2FF5023B9FCD} = {E2EF5640-AAC6-4E84-9C6D-A53B1275D865}
 		{DED79C0A-8B76-4788-A33F-D268B79B857A} = {C3693943-F5DE-452D-9D48-130EE4B98B60}
 		{BD70EB3C-CCA5-4876-B023-9DBEDD5A678E} = {C3693943-F5DE-452D-9D48-130EE4B98B60}
+		{9B8ABF48-2709-44C7-8118-33BA704E355B} = {C3693943-F5DE-452D-9D48-130EE4B98B60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A80743B2-8389-4954-9CF2-3FBA435C1284}
