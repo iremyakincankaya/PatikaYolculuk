@@ -146,11 +146,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patikafy", "Patikafy\Patika
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Patikaflix", "Patikaflix\Patikaflix.csproj", "{9B8ABF48-2709-44C7-8118-33BA704E355B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Advanced", "Linq_Advanced\Linq_Advanced.csproj", "{A81D5099-35BC-4492-9EF5-69A3C4A92496}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq_Advanced", "Linq_Advanced\Linq_Advanced.csproj", "{A81D5099-35BC-4492-9EF5-69A3C4A92496}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_Practice", "Linq_Practice\Linq_Practice.csproj", "{26C04363-7DDF-4A92-95EC-D4F50FC966F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq_Practice", "Linq_Practice\Linq_Practice.csproj", "{26C04363-7DDF-4A92-95EC-D4F50FC966F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq_GroupJoin_Practice", "Linq_GroupJoin_Practice\Linq_GroupJoin_Practice.csproj", "{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq_GroupJoin_Practice", "Linq_GroupJoin_Practice\Linq_GroupJoin_Practice.csproj", "{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Async", "Async\Async.csproj", "{1C08056B-64A2-4BE0-9162-E1E65DA16680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicMVC", "BasicMVC\BasicMVC.csproj", "{8290146B-EC34-4CC5-B7EF-A3A375873275}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -402,6 +406,14 @@ Global
 		{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C08056B-64A2-4BE0-9162-E1E65DA16680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C08056B-64A2-4BE0-9162-E1E65DA16680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C08056B-64A2-4BE0-9162-E1E65DA16680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C08056B-64A2-4BE0-9162-E1E65DA16680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8290146B-EC34-4CC5-B7EF-A3A375873275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8290146B-EC34-4CC5-B7EF-A3A375873275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8290146B-EC34-4CC5-B7EF-A3A375873275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8290146B-EC34-4CC5-B7EF-A3A375873275}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -462,6 +474,7 @@ Global
 		{A81D5099-35BC-4492-9EF5-69A3C4A92496} = {C3693943-F5DE-452D-9D48-130EE4B98B60}
 		{26C04363-7DDF-4A92-95EC-D4F50FC966F9} = {C3693943-F5DE-452D-9D48-130EE4B98B60}
 		{6EB393EE-71D4-4F29-BB07-C3A8EAD8D65A} = {C3693943-F5DE-452D-9D48-130EE4B98B60}
+		{1C08056B-64A2-4BE0-9162-E1E65DA16680} = {C3693943-F5DE-452D-9D48-130EE4B98B60}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A80743B2-8389-4954-9CF2-3FBA435C1284}
